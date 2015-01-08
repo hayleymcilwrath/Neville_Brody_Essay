@@ -1,0 +1,245 @@
+   html {
+      
+       height: 100%;
+   
+   }
+
+
+    body {
+    font-family: Helvetica;
+    font-size: 20px;
+    margin: 0px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.88);
+    
+
+    
+}
+
+p { font: helvetica;
+    letter-spacing: 2.1px;
+    line-height: 1.2em;
+    
+  }
+
+
+    img.Transparent {
+        opacity: 0.5;
+        margin: 0 auto;
+        padding: 0px;
+   		width: 100%;
+  		
+     }
+
+
+   article {
+       max-width: 100%;
+       margin: 0 auto;
+       font-family: Helvetica;
+   }
+        
+/* navigation of essay*/
+ 
+       ul {
+            text-align: center;
+            list-style:none;
+            letter-spacing: 1.5px;
+            padding: 20px;
+            font-size: 17px;
+           }
+        
+     
+        
+        
+        a {
+            color: rgb(247, 255, 245);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 1px;
+            
+        }
+        
+        a:hover {
+            color: rgb(240, 194, 113);
+        }
+        
+
+
+
+        nav {
+           
+        display:table-header-group;
+        padding: 10px;
+        margin: 0 auto;
+            /* Change the width below to make navigation line bigger and smaller */
+            width: 0 auto;
+            border-bottom: 3px solid rgba(137, 98, 35, 0.96);
+          
+        
+        }
+
+        nav ul li {
+            display:table-cell;
+            padding-left: 10px;
+         
+        }
+        
+        
+
+   
+        
+        
+
+}
+
+    img {
+            
+            display: block;
+            margin: 0 auto;
+            padding: 10px;
+            max-width: 100%;
+    } 
+
+
+/*this is the border that makes the lines*/
+    
+    .border1{ 
+            width:900px; 
+            height:auto; 
+            border-right:5px solid rgb(247, 255, 245);
+           border-bottom: 4px solid rgb(247, 255, 245);
+           margin-left: 200px;
+        
+}
+
+    .border1 h2 {
+            color: rgb(196, 194, 151); 
+            width: 900px;
+            font-size: 30px; 
+            margin: 0px;
+            padding-top: 10px;
+}
+                  
+    .border1 p {
+            color:#C89836;
+            width:850px; 
+            margin-top:20px;
+            margin-bottom:20px;
+            margin-left: 10px;
+            padding-top: 10px;}
+            
+
+
+    .border2 { 
+            width:900px; 
+            height: auto; 
+            border-left:5px solid rgb(247, 255, 245); 
+            border-bottom:5px solid rgb(247, 255, 245); 
+            margin-left: 200px;  
+}
+
+
+
+    .border2 h2 {
+            
+            color: rgb(196, 194, 151);  
+            width:900px;
+            margin: 10px; 
+            margin-top: 0px; 
+            border-color:rgb(247, 255, 245); 
+            padding-top: 10px;
+
+             }
+
+
+    .border2 p {
+            color:#C89836; 
+            width:850px;
+            letter-spacing: 2.1px;
+             line-height: 1.2em;
+              margin-top:20px; 
+            margin-bottom:20px; 
+            margin-left: 10px;
+    }
+
+h2.intro {
+         border-bottom: 4px solid rgb(247, 255, 245);
+         margin-left: 203px;
+         color: rgb(196, 194, 151);
+         width: 900px;
+         margin-bottom: -22px;
+       
+    }
+
+h3   {
+    
+    color: rgba(255, 205, 110, 0.55);
+    padding-left: 10px;
+
+}
+
+
+
+
+
+/*content of essay*/
+
+    .designer {
+        font-size: 15px;
+        color: rgba(255, 165, 0, 0.95);
+        
+    
+    
+    
+    }
+
+    .title { 
+        font-size: 40px;
+        font-family: Helvetica Neue Light;
+        color: rgb(245, 180, 4);
+        
+    }
+
+  
+
+     
+   .jessica{
+            padding-left: 150px;
+   
+   }   
+          
+      
+      blockquote { 
+                font-style: bold;
+                font-family: Helvetica Neue bold;
+                 border-left: 1px solid #eeeee3;       
+          
+      
+      
+      
+      }
+        
+
+  .face {    padding-left: 300px;
+      
+  
+  }
+
+
+.Newcracks { padding-left: 245px;
+
+
+}
+
+.nike {  padding-left: 140px;
+
+
+}
+
+.mydesign2 { padding-left: 200px;
+
+}
+    
+
+        
