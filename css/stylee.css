@@ -1,245 +1,417 @@
-   html {
-      
-       height: 100%;
-   
+/* style reset*/
+        
+        * {
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+        line-height: 1em;
+        }
+
+
+
+/* Layout */
+
+
+
+header {
+        font-family: 'Helvetica Neue';
+        margin: 30px 0 50px 0;
+}
+       
+img.logo-header { 
+        display: block;
+        margin: 0 auto;
+    }
+       
+        
+    
+
+
+h1.introduction {
+        font-family: "Helvetica Neue";
+        font-size: 70px;
+        padding: 10px;
+        line-height: 5px;
+        padding: 40px 0 40px 0;
+        text-align: center;
+       
+}
+ h2.title {
+        font-family:  "Helvetica Neue" serif;
+        font-size: 80px;
+        text-align: center;
+        padding: 40px 0 40px 0;
+        line-height: 60px;
+        color:  #E9551B;
+
    }
 
-
-    body {
-    font-family: Helvetica;
-    font-size: 20px;
-    margin: 0px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.88);
-    
-
-    
+h3.tagline {
+            font-family:  "Helvetica Neue";
+            font-size: 30px;
+            text-align: center;
+            padding: 40px 0 40px 0;
+            line-height: 60px;
+            border-bottom: 3px solid #000000;
+            width: 80%;
+            margin: 0 auto;
 }
 
-p { font: helvetica;
-    letter-spacing: 2.1px;
-    line-height: 1.2em;
+section {
+    padding: 40px 260px 40px 260px;
+}
+
+
+section.orange {    
+                background: #F7A712;
+                max-width: 100%;
+                
+}
+
+
+
+
+
+section.white {
     
-  }
+                 background: #Ffffff;
+                max-width: 100%;
+
+}
 
 
-    img.Transparent {
-        opacity: 0.5;
-        margin: 0 auto;
-        padding: 0px;
-   		width: 100%;
-  		
-     }
 
 
-   article {
-       max-width: 100%;
-       margin: 0 auto;
-       font-family: Helvetica;
-   }
-        
-/* navigation of essay*/
+
+section.darkorange {    
+                background: #E9551B;
+                max-width: 100%;
+
+                margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.logo-guidelines {
+                     margin: 0 auto;
+                  display: block;
+                    padding margin-bottom: 20px;
+
+}
+
+
+/*headers*/
+
+  
+       
+   
+
+
+h2 { 
+    
+    font-size: 35px;
+    font-family:  "Helvetica Neue";
+    color: #000000;
+     padding: 0 0 10px 0;
+    
+    
+    
+}
+   
+h3 {
+      font-size: 25px;
+         padding: 0 0 10px 0;
+    font-family:  "Helvetica Neue";
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+p { font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.6px;
+    font-family: "Myriad Pro";
  
-       ul {
-            text-align: center;
-            list-style:none;
-            letter-spacing: 1.5px;
-            padding: 20px;
-            font-size: 17px;
-           }
-        
+
+
+
+
+}
+
+p.header1 { font-family: "Helvetica Neue";
+          font-size: 60px;
+          padding: 20px;
+    padding-top: 40px;
+
+
+
+}
+
+p.header2 { font-size: 35px;
+    font-family:  "Helvetica Neue";
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 30px
+}
+
+p.header3 { font-size: 28px;
+    font-family:  "Helvetica Neue";
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 30px
+
+
+
+
+}
+
+p.para { font-size: 20px;
+    font-family:  "Helvetica Neue";
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 30px
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+img.colour-image {
+                  margin: 0 auto;
+                  display: block;
+
+}
+
+img.vertical {
+               margin:0 auto;
+                display: block;
+}
+
+img.horizontal {
+               margin: 0 auto;
+                display: block;
+                padding-top: 50px;
+                padding-bottom: 40px
+
+}
+
+img.main-logo {
+                margin: 0 auto;
+                display: block;
+                padding-top: 50px;
+                padding-bottom: 40px;
+                
+
+
+}
+
+img.do-dont {  margin: 0 auto;
+                display: block;
+                padding-top: 50px;
+                padding-bottom: 60px;
+
+
+}
+
+img.logo { margin: 0 auto;
+                display: block;
+                padding-top: 50px;
+
+
+}
+
+img.white-space { margin: 0 auto;
+                display: block;
+                padding-top: 50px;
+                padding-bottom: 50PX;
+
+
+
+}
+
+img.icons { margin:-60px;
+             padding-top: 60px;
+
+
+
+
+}
+
+img.mockup { margin: 0 auto;
+                display: block;
+
+
+
+
+
+}
+
+p.Helvetica { font-family: "Helvetica Neue";
+          font-size: 40px;
+          padding: 25px;
+
+
+
+} 
+
+
+
+
+
+p.Myriad-Pro { font-family:  "Myriad Pro";
+                    font-size: 40px;
+                      padding: 25px; 
+                    padding-bottom: 20px
+
+
+
+}
+
+
+p.colour-scheme { margin: 0 auto;
+                display: block;
+
+
+
+
+}
      
-        
-        
-        a {
-            color: rgb(247, 255, 245);
+
+
+
+}
+
+p.para { font-size: 20px;
+    font-family:  "Helvetica Neue";
+    color: #000000;
+    padding-top: 60px; 
+
+
+
+}
+
+blockquote.strapline; { 
+    
+            text-align: justify, center;
+            letter-spacing: 1px;
+            color: rgba(0, 0, 0, 0.96);
+            font-style: oblique;
+
+
+
+}
+
+/*list*/
+
+ol {  padding: 20px;
+      
+}
+
+li {  padding: 10px;
+      font-family:  "Myriad Pro";
+      font-size: 20px
+      
+
+
+
+}
+
+h3.Helvetica1 { padding-top: 20px;
+    
+
+
+
+}
+
+
+
+/*nav*/
+
+        a {     
+            color:  #F7A712;
             text-decoration: none;
             text-transform: uppercase;
             letter-spacing: 1px;
-            padding: 1px;
+            font-family: "Myria Pro", sans-serif;
             
         }
         
         a:hover {
-            color: rgb(240, 194, 113);
-        }
-        
-
-
-
-        nav {
-           
-        display:table-header-group;
-        padding: 10px;
-        margin: 0 auto;
-            /* Change the width below to make navigation line bigger and smaller */
-            width: 0 auto;
-            border-bottom: 3px solid rgba(137, 98, 35, 0.96);
-          
-        
-        }
-
-        nav ul li {
-            display:table-cell;
-            padding-left: 10px;
-         
-        }
-        
-        
-
-   
-        
-        
-
-}
-
-    img {
             
-            display: block;
-            margin: 0 auto;
-            padding: 10px;
-            max-width: 100%;
-    } 
-
-
-/*this is the border that makes the lines*/
-    
-    .border1{ 
-            width:900px; 
-            height:auto; 
-            border-right:5px solid rgb(247, 255, 245);
-           border-bottom: 4px solid rgb(247, 255, 245);
-           margin-left: 200px;
-        
-}
-
-    .border1 h2 {
-            color: rgb(196, 194, 151); 
-            width: 900px;
-            font-size: 30px; 
-            margin: 0px;
-            padding-top: 10px;
-}
-                  
-    .border1 p {
-            color:#C89836;
-            width:850px; 
-            margin-top:20px;
-            margin-bottom:20px;
-            margin-left: 10px;
-            padding-top: 10px;}
-            
-
-
-    .border2 { 
-            width:900px; 
-            height: auto; 
-            border-left:5px solid rgb(247, 255, 245); 
-            border-bottom:5px solid rgb(247, 255, 245); 
-            margin-left: 200px;  
-}
-
-
-
-    .border2 h2 {
-            
-            color: rgb(196, 194, 151);  
-            width:900px;
-            margin: 10px; 
-            margin-top: 0px; 
-            border-color:rgb(247, 255, 245); 
-            padding-top: 10px;
-
-             }
-
-
-    .border2 p {
-            color:#C89836; 
-            width:850px;
-            letter-spacing: 2.1px;
-             line-height: 1.2em;
-              margin-top:20px; 
-            margin-bottom:20px; 
-            margin-left: 10px;
-    }
-
-h2.intro {
-         border-bottom: 4px solid rgb(247, 255, 245);
-         margin-left: 203px;
-         color: rgb(196, 194, 151);
-         width: 900px;
-         margin-bottom: -22px;
-       
-    }
-
-h3   {
-    
-    color: rgba(255, 205, 110, 0.55);
-    padding-left: 10px;
-
-}
-
-
-
-
-
-/*content of essay*/
-
-    .designer {
-        font-size: 15px;
-        color: rgba(255, 165, 0, 0.95);
-        
-    
-    
-    
-    }
-
-    .title { 
-        font-size: 40px;
-        font-family: Helvetica Neue Light;
-        color: rgb(245, 180, 4);
-        
-    }
-
-  
-
+            text-decoration: underline;
+            color: black;
+        }
+ 
      
-   .jessica{
-            padding-left: 150px;
-   
-   }   
-          
-      
-      blockquote { 
-                font-style: bold;
-                font-family: Helvetica Neue bold;
-                 border-left: 1px solid #eeeee3;       
-          
-      
-      
-      
-      }
-        
-
-  .face {    padding-left: 300px;
-      
-  
-  }
-
-
-.Newcracks { padding-left: 245px;
-
-
-}
-
-.nike {  padding-left: 140px;
-
-
-}
-
-.mydesign2 { padding-left: 200px;
-
-}
+            nav ul {
+            text-align: center;
+            list-style-type: none;
+            padding: 0 0 50px 0 ;
+            
+        }
     
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+            color: 'black';
+        }
 
-        
+/* Responsive Design */
+
+@media all and (max-width: 800px) {
+    
+    h1.introduction {
+        font-family: "Helvetica Neue";
+        font-size: 40px;
+        padding: 10px;
+        line-height: 5px;
+        padding: 40px 0 40px 0;
+        text-align: center;
+       
+}
+ h2.title {
+        font-family:  "Helvetica Neue", serif;
+        font-size: 45px;
+        text-align: center;
+        padding: 40px 0 40px 0;
+        line-height: 60px;
+        color:  #E9551B;
+
+   }
+
+h3.tagline {
+            font-family:  "Helvetica Neue", serif;
+            font-size: 30px;
+            text-align: center;
+            padding: 40px 0 40px 0;
+            line-height: 60px;
+            border-bottom: 3px solid #000000;
+            width: 80%;
+            margin: 0 auto;
+}
+
+    section {
+    padding: 20px 15px 20px 15px;
+}
+
+    
+}
+            
+            
